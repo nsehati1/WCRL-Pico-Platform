@@ -6,3 +6,17 @@ This code is to be integrated with the newly designed and work-in-progress WCRL 
 
 
 This code is a work in progress and will be updated as improvements are made.
+
+
+
+***UPDATE 02/14/2023**
+
+New hardware changes to the PCB are as follows:
+
+**Deletion of ESP8266 module - Pico now self-generates soft-access point**
+2 ESC channels with respective signals (as opposed to original 1)
+4 motor inputs, each set in parallel
+Input for external bot LED
+
+
+New Pico Motor Driver.py code replaces older Motor Driver.py code. This code reflects the hardware changes as mentioned above. The Pico now generates its own soft-access network with a WPA2 password, assigns itself a local IP, opens a socket, and generates a UI for the control interface. 

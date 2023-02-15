@@ -11,7 +11,7 @@ This code is a work in progress and will be updated as improvements are made.
 
 ***UPDATE 02/14/2023**
 
-New hardware changes to the PCB are as follows:
+New hardware changes to the PCB are as follows (PCB REV 2):
 
 **Deletion of ESP8266 module - Pico now self-generates soft-access point**
 2 ESC channels with respective signals (as opposed to original 1)
